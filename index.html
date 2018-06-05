@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Fortune</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune Teller!</h2>
+      </div>
+      <form id="fortune_survey">
+        <div class="form-group">
+          <p>Check each item you consider to be 'lucky':</p>
+          <input type="checkbox" name="luckItem" value="Rabbit's foot">Rabbit's foot<br>
+          <input type="checkbox" name="luckItem" value="four-leaf clover">four-leaf clover<br>
+          <input type="checkbox" name="luckItem" value="knocking on wood">knocking on wood<br>
+          <input type="checkbox" name="luckItem" value="walking under a ladder">walking under a ladder<br>
+        </div>
+        <div class="form-group">
+          <p>In the past year, I have used the following modes of transportation to travel to other activities and events:</p>
+          <input type="checkbox" name="fun-transportation" value="bike"> Riding a bike.<br>
+          <input type="checkbox" name="fun-transportation" value="car">Driving a car.<br>
+          <input type="checkbox" name="fun-transportation" value="carpool">Carpooling with others.<br>
+          <input type="checkbox" name="fun-transportation" value="walk">Walking.<br>
+          <input type="checkbox" name="fun-transportation" value="bus">Riding the bus.<br>
+          <input type="checkbox" name="fun-transportation" value="train">Riding the train.<br>
+          <input type="checkbox" name="fun-transportation" value="streetcar">Riding the streetcar.<br>
+          <input type="checkbox" name="fun-transportation" value="taxi">Taking a taxi.<br>
+          <input type="checkbox" name="fun-transportation" value="rideshare">Using a rideshare service like Lyft or Uber.<br>
+          <input type="checkbox" name="fun-transportation" value="skateboard">Skateboarding.<br>
+          <input type="checkbox" name="fun-transportation" value="rollerblade">Rollerblading.<br>
+          <input type="checkbox" name="fun-transportation" value="scooter">Riding a scooter.<br>
+          <input type="checkbox" name="fun-transportation" value="other">Another mode of transportation not listed here.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="luck-response">
+        <p><b>Luck in your life seems to be:</b></p>
+      </span>
+      <br>
+      <span id="fun-responses">
+        <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
