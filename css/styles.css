@@ -1,7 +1,3 @@
-#work-responses {
-  display: none;
-}
-
-#fun-responses {
+#luck-response, #unluck-response, #fairy-response, #fort-response {
   display: none;
 }
